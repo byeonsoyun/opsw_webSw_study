@@ -10,9 +10,13 @@ git push origin main
 git pull upstream main && git push origin main
 명령으로 업데이트된 부분을 다시 훔쳐올 수 있다
 
+2. 민경이의 깃허브에 변경이 있는지 확인하려면
+   git fetch upstream
+   git status
+   명령으로 변경 여부를 확인할 수 있다
 
 
-2. 만약 충돌(conflict)이 발생하면 
+3. 만약 충돌(conflict)이 발생하면 
 git add .
 git commit -m "충돌해결"
 git push origin main 
